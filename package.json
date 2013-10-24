@@ -13,5 +13,8 @@
   "author": "max ogden",
   "license": "BSD-2-Clause",
   "bin": "./bytewiser.js",
-  "preferGlobal": true
+  "preferGlobal": true,
+  "dependencies": {
+    "workshopper": "~0.3.3"
+  }
 }

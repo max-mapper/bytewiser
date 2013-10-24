@@ -4,5 +4,6 @@
   "Modifying Buffers",
   "Line Splitter",
   "Buffer Concat",
-  "Typed Arrays"
+  "Typed Arrays",
+  "Array Buffers"
 ]

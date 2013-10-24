@@ -1,0 +1,16 @@
+{yellow}{bold}Having trouble with a {appname} exercise?{/bold}{/yellow}
+
+  A team of expert helper elves is eagerly waiting to assist you in
+  mastering the basics of JavaScript and Node, simply go to:
+    https://github.com/nodeschool/discussions/issues
+  and add a {bold}New Issue{/bold} and let us know what you're having trouble
+  with. There are no {italic}dumb{/italic} questions! You may be
+  redirected to one of the support channels below, depending on how
+  complex your question is.
+
+  If you have a specific question about Node or one of the modules/
+  packages used in {appname}, you could consider one of the following
+  support channels instead:
+
+    - Visit #node.js on Freenode IRC
+    - Open a new issue @ the github repo for the node module in question

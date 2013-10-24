@@ -5,5 +5,12 @@
   "Line Splitter",
   "Buffer Concat",
   "Typed Arrays",
-  "Array Buffers"
+  "Array Buffers",
+  "bops",
+  "multibuffer",
+  "multibuffer-stream",
+  "msgpack",
+  "FileReader",
+  "Binary WebSocket",
+  "TCP socket"
 ]

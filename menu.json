@@ -3,5 +3,6 @@
   "Hexadecimal Encoding",
   "Modifying Buffers",
   "Line Splitter",
-  "Buffer Concat"
+  "Buffer Concat",
+  "Typed Arrays"
 ]

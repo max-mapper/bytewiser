@@ -10,6 +10,6 @@
   2. Run `bytewiser`
   3. **.. there is no step 3!**
 
-<b><code>bytewiser</code></b> will run through a series of Node.js + JS challengs. Starting with the basic operations of Buffers and Typed Arrays and moving on to more advanced exercises.
+<b><code>bytewiser</code></b> will run through a series of Node.js + JS challenges. Starting with the basic operations of Buffers and Typed Arrays and moving on to more advanced exercises.
 
 **bytewiser** builds on the **[workshopper](https://github.com/rvagg/workshopper)** framework which is also used by **[nodeschool](http://nodeschool.io)**.

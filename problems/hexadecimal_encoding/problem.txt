@@ -29,8 +29,8 @@ a correct solution, run `{bold}{appname}{/bold}` again and select the next probl
 
 ----------------------------------------------------------------------
 HINTS:
-
-.toString
+- 'bytes' are also referred to as 'octets' in the node documentation linked below
+- .toString
 
 Read more about Buffers here:
   http://nodejs.org/api/all.html#all_buffer

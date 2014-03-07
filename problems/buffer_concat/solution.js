@@ -1,26 +1,10 @@
-var util = require('util')
-var Transform = require('stream').Transform
-util.inherits(Concat, Transform)
+var     t = require('through')
+        , ar = []
 
-function Concat(cb) {
-  Transform.call(this)
-  this.cb = cb
-  this.buffers = []
-}
-
-Concat.prototype._transform = function(chunk, encoding, done) {
-  this.buffers.push(chunk)
-  this.push(chunk)
-  done()
-}
-
-Concat.prototype._flush = function(done) {
-  this.cb(this.buffers)
-  done()
-}
-
-process.stdin.pipe(new Concat(log))
-
-function log(buffs) {
-  console.log(Buffer.concat(buffs))
-}
+process.stdin
+        .pipe(t(function(buff){
+                ar.push(buff)
+        }, function(){
+                var bs = Buffer.concat(ar)
+                console.log(bs)
+        }))

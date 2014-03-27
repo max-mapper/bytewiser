@@ -1,11 +1,13 @@
 var fs = require('fs')
-var file = fs.readFileSync(process.argv[2])
-var offset = 0
-for (var i = 0; i < file.length; i++) {
-  if (file[i] === 10) {
-    console.log(file.slice(offset, i))
-    i++
-    offset = i
+  , bt = require('buffertools');
+
+fs.readFile(process.argv[2], function(err, data) {
+  var offset = 0;
+  while (true) {
+    var nl = bt.indexOf(data, '\n', offset);
+    if (nl === -1) break;
+    console.log(data.slice(offset, nl));
+    offset = ++nl;
   }
-}
-console.log(file.slice(offset, i))
+  console.log(data.slice(offset));
+});

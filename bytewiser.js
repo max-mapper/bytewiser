@@ -3,13 +3,16 @@
 const workshopper = require('workshopper')
     , path        = require('path')
 
+function fpath (f) {
+  return path.join(__dirname, f)
+}
+
 workshopper({
-    name     : 'bytewiser'
-  , title    : 'Bytewiser'
-  , subtitle : 'Learn how to work with binary data in Node + HTML5 browsers'
-  , appDir   : __dirname
-  , menu     : {
-        bg : 'blue'
-    }
-  , helpFile : path.join(__dirname, 'help.txt')
-}).init()
+    name        : 'bytewiser'
+  , title       : 'Bytewiser'
+  , subtitle    : 'Learn how to work with binary data in Node + HTML5 browsers'
+  , appDir      : __dirname
+  , menuItems   : []
+  , exerciseDir : fpath('./exercises/') 
+  , helpFile    : fpath('help.txt')
+})

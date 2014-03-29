@@ -14,14 +14,20 @@ exercise = comparestdout(exercise)
 
 exercise.addSetup(function (mode, callback) {
 
+  // generate a random number between min and max
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min) + min)
+  }
+
+  var number = getRandomInt(1000000, 9999999)
+
   // supply the file as an arg to the 'execute' processor for both
   // solution and submission spawn()
   // using unshift here because wrappedexec needs to use additional
   // args to do its magic
-  this.submissionArgs.unshift(8675309)
-  this.solutionArgs.unshift(8675309)
+  this.submissionArgs.unshift(number)
+  this.solutionArgs.unshift(number)
 
-  console.log(this.solutionArgs);
   callback(null)
 })
 

@@ -1,3 +1,2 @@
-var bytes = [0, 15, 24, 3, 250, 83]
-var buff = new Buffer(bytes)
-console.log(buff.toString('hex'))
+var bytes = process.argv.slice(2).map(function(arg) { return parseInt(arg) })
+console.log(new Buffer(bytes).toString('hex'))

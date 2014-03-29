@@ -1,9 +1,15 @@
-Given a predetermined array of base 10 integers, create a buffer from the array and output a hexadecimal encoded representation of the buffer.
+Given an unknown number of bytes passed via process.argv, create a buffer from them and output a hexadecimal encoded representation of the buffer.
 
-For example, your code should act on the following array of numbers:
+For example, process.argv might look like:
 
 ```js
-  var bytes = [0, 15, 24, 3, 250, 83];
+  [ '/Users/sent1nel/.nvm/v0.10.24/bin/node', '/Users/sent1nel/bytewiser/exercises/hexadecimal_encoding/solution/solution.js', 14, 80, 243, 2 ]
+```
+
+Or it might look like:
+
+```js
+  [ '/Users/sent1nel/.nvm/v0.10.24/bin/node', '/Users/sent1nel/bytewiser/exercises/hexadecimal_encoding/solution/solution.js', 231, 127, 0, 8, 13 ]
 ```
 
 Your answer should be a string of two-character pairs, where each pair represents a single number in the array of bytes converted to hexadecimal. For example:

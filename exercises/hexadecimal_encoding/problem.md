@@ -1,18 +1,18 @@
 Given an unknown number of bytes passed via process.argv, create a buffer from them and output a hexadecimal encoded representation of the buffer.
 
-For example, process.argv might look like:
+For example, `process.argv` might look like:
 
 ```js
-  [ '/Users/sent1nel/.nvm/v0.10.24/bin/node', '/Users/sent1nel/bytewiser/exercises/hexadecimal_encoding/solution/solution.js', 14, 80, 243, 2 ]
+  [ '/usr/bin/node', '/usr/local/lib/node_modules/bytewiser/exercises/hexadecimal_encoding/solution/solution.js', '14', '80', '243', '2' ]
 ```
 
 Or it might look like:
 
 ```js
-  [ '/Users/sent1nel/.nvm/v0.10.24/bin/node', '/Users/sent1nel/bytewiser/exercises/hexadecimal_encoding/solution/solution.js', 231, 127, 0, 8, 13 ]
+  [ '/usr/bin/node', '/usr/local/lib/node_modules/bytewiser/exercises/hexadecimal_encoding/solution/solution.js', '231', '127', '0', '8', '13' ]
 ```
 
-Your answer should be a string of two-character pairs, where each pair represents a single number in the array of bytes converted to hexadecimal. For example:
+Your answer should be a string of two-character pairs (also known as hexadecimal octets), where each pair represents a single number in the array of bytes converted to hexadecimal. For example:
 
 ```
 000f1803fa53
@@ -20,7 +20,6 @@ Your answer should be a string of two-character pairs, where each pair represent
 
 ----------------------------------------------------------------------
 ## Hints
-You can copy the line above that sets bytes equal to an array of integers from above into your solution.
 
 When creating a new `Buffer` object, you can pass as the first argument an array of bytes, also referred to as octets, and you will receive a new Buffer object that has available to it all of the methods listed in the official documentation.
 

@@ -13,3 +13,12 @@
 <b><code>bytewiser</code></b> will run through a series of Node.js + JS challenges. Starting with the basic operations of Buffers and Typed Arrays and moving on to more advanced exercises.
 
 **bytewiser** builds on the **[workshopper](https://github.com/rvagg/workshopper)** framework which is also used by **[nodeschool](http://nodeschool.io)**.
+
+### contributors
+
+bytewiser is only possible due to the excellent work of the following contributors:
+
+<table><tbody>
+<tr><th align="left">Max Ogden</th><td><a href="https://github.com/maxogden">GitHub/maxogden</a></td><td><a href="http://twitter.com/maxogden">Twitter/@maxogden</a></td></tr>
+<tr><th align="left">Joshua K. Farrar</th><td><a href="https://github.com/sent1nel/">GitHub/sent1nel</a></td><td></td></tr>
+</tbody></table>

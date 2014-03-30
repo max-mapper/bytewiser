@@ -1,6 +1,6 @@
 {
   "name": "bytewiser",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "a nodeschool workshop that teaches you the fundamentals of working with binary data in node.js and HTML5 browsers",
   "author" : "Max Ogden (http://github.com/maxogden)",
   "contributors": [

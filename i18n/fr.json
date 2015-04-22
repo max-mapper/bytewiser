@@ -13,9 +13,7 @@
     "Typed Arrays": "Tableaux typés",
     "Array Buffers": "Buffers de tableaux"
   },
-  "exercises": {
-    "Modifying Buffers": {
-      "fail": "Votre programme n’a jamais lu depuis process.stdin"
-    }
+  "common": {
+    "fail.never_read_stdin": "Votre programme n’a jamais lu depuis process.stdin"
   }
 }

@@ -36,7 +36,7 @@ function query (mode) {
       .on('error', function(err) {
         exercise.emit(
           'fail',
-          exercise.__('fail')
+          exercise.__('fail.never_read_stdin')
         )
       })
     input.write('wow. such wow.');

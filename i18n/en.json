@@ -4,9 +4,7 @@
   "menu": {
     "credits": "CREDITS"
   },
-  "exercises": {
-    "Modifying Buffers": {
-      "fail": "Submission never read from process.stdin"
-    }
+  "common": {
+    "fail.never_read_stdin": "Submission never read from process.stdin"
   }
 }

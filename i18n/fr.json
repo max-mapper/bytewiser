@@ -12,5 +12,10 @@
     "Buffer Concat": "Concaténation de buffers",
     "Typed Arrays": "Tableaux typés",
     "Array Buffers": "Buffers de tableaux"
+  },
+  "exercises": {
+    "Modifying Buffers": {
+      "fail": "Votre programme n’a jamais lu depuis process.stdin"
+    }
   }
 }

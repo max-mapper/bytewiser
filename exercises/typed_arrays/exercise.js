@@ -36,7 +36,7 @@ function query (mode) {
       .on('error', function(err) {
         exercise.emit(
           'fail',
-          'Submission never read from process.stdin'
+          exercise.__('fail.never_read_stdin')
         )
       })
     input.write('secret message');

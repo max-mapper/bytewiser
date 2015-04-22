@@ -1,0 +1,4 @@
+{yellow}{bold}learnyounode vous est proposé par les codeurs dévoués suivants :{/bold}{/yellow}
+
+{bold}Nom                     GitHub       Twitter{/bold}
+--------------------------------------------

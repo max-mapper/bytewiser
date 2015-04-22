@@ -2,6 +2,7 @@
 
 const workshopper = require('workshopper')
     , path        = require('path')
+    , credits     = require('./credits')
 
 function fpath (f) {
   return path.join(__dirname, f)
@@ -9,10 +10,11 @@ function fpath (f) {
 
 workshopper({
     name        : 'bytewiser'
-  , title       : 'Bytewiser'
-  , subtitle    : 'Learn how to work with binary data in Node + HTML5 browsers'
   , appDir      : __dirname
-  , menuItems   : []
-  , exerciseDir : fpath('./exercises/') 
-  , helpFile    : fpath('help.txt')
+  , languages   : ['en', 'fr']
+  , helpFile    : fpath('i18n/help/{lang}.txt')
+  , menuItems   : [ {
+        name    : 'credits'
+      , handler : credits
+    } ]
 })

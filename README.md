@@ -21,4 +21,5 @@ bytewiser is only possible due to the excellent work of the following contributo
 <table><tbody>
 <tr><th align="left">Max Ogden</th><td><a href="https://github.com/maxogden">GitHub/maxogden</a></td><td><a href="http://twitter.com/maxogden">Twitter/@maxogden</a></td></tr>
 <tr><th align="left">Joshua K. Farrar</th><td><a href="https://github.com/sent1nel/">GitHub/sent1nel</a></td><td></td></tr>
+<tr><th align="left">Christophe Porteneuve</th><td><a href="https://github.com/tdd">GitHub/tdd</a></td><td><a href="http://twitter.com/porteneuve">Twitter/@porteneuve</a></td></tr>
 </tbody></table>

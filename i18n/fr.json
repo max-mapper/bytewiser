@@ -1,0 +1,16 @@
+{
+  "title": "Bytewiser",
+  "subtitle": "Learn how to work with binary data in Node + HTML5 browsers",
+  "menu": {
+    "credits": "CRÉDITS"
+  },
+  "exercise": {
+    "Buffer From String": "Buffer depuis une String",
+    "Hexadecimal Encoding": "Encodage hexadécimal",
+    "Modifying Buffers": "Modification de buffers",
+    "Line Splitter": "Déoupage par lignes",
+    "Buffer Concat": "Concaténation de buffers",
+    "Typed Arrays": "Tableaux typés",
+    "Array Buffers": "Buffers de tableaux"
+  }
+}

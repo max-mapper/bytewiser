@@ -1,4 +1,4 @@
-Dans Node.js, un **buffer** est un objet qui permet de travailler sur divers types de données binaires.  Le type `Buffer` est accessible globalement.  La plupart des APIs du noyau Node (par ex. `http`, `net`, `fs`) vous fourniront des buffers, et feront leur propre travail plus rapidement si vous leur passez des buffers vous aussi.
+Dans Node.js, un tampon (**buffer**) est un objet qui permet de travailler sur divers types de données binaires.  Le type `Buffer` est accessible globalement.  La plupart des APIs du noyau Node (par ex. `http`, `net`, `fs`) vous fourniront des buffers, et feront leur propre travail plus rapidement si vous leur passez des buffers vous aussi.
 
 ## Défi
 

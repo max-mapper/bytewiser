@@ -26,14 +26,14 @@ Lorsque vous créez un objet `Buffer`, vous pouvez passer comme premier argument
 
 Puisque vous devez afficher le résultat sous forme hexadécimale, jetez un œil à la méthode `Buffer#toString()`.
 
-Pour passer d’un objet `Buffer` à une `String`, vous devez indiquer l’encodage que vous souhaitez.  Par exemple, si nous voulons représenter le contenu d’un buffer en tant que texte au format Base64, nous utiliserons l’argument idoine, comme ceci :
+Pour passer d’un objet `Buffer` à une `String`, vous devez indiquer l’encodage que vous souhaitez.  Par exemple, si nous voulons représenter le contenu d’un tampon en tant que texte au format Base64, nous utiliserons l’argument idoine, comme ceci :
 
 ```js
 var buffer = new Buffer([0x01, 0xFF]);
 console.log(buffer.toString('base64'));
 ```
 
-Remarquez au passage que ci-dessus, nous créons l’objet Buffer à partir d’un tableau de nombres utilisant la syntaxe littérale hexadécimale, comme l’indiquent les préfixes `0x`.
+Remarquez au passage que ci-dessus, nous créons l’objet `Buffer` à partir d’un tableau de nombres utilisant la syntaxe littérale hexadécimale, comme l’indiquent les préfixes `0x`.
 
 La documentation de la classe `Buffer`, avec toutes les méthodes et encodages possibles, peut être consultée ici :
 

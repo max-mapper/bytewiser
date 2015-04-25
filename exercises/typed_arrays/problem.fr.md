@@ -2,7 +2,7 @@ Les tableaux typés (*Typed Arrays*) constituent une autre manière de manipuler
 données binaires.  Leur ajout à JS remonte à 2010, et on les trouve désormais dans la
 plupart des navigateurs, grâce à la spécification WebGL pour la programmation 3D dans
 les navigateurs.  Les tableaux typés n’ont pas autant de fonctionnalités que les `Buffer`s
-de Node, mais ils ont l’avantage remarquable de fonctionner dans les navigateurs aussi.
+de Node, mais ils ont l’énorme avantage de fonctionner également dans les navigateurs.
 
 On trouve plusieurs variantes de tableau typés.  `Uint8Array` est celle qui ressemble le
 plus à `Buffer`.  Le « U » dans « Uint » signifie « *Unsigned* », ce qui revient à dire
@@ -11,7 +11,7 @@ valeurs positives comme négatives.
 
 ## Défi
 
-Lisez un premier buffer depuis `process.stdin`, copiez tous ses octers dans un
+Lisez un premier tampon depuis `process.stdin`, copiez tous ses octets dans un
 `Uint8Array` puis loguez le représentation JSON textuelle de ce tableau typé.
 
 ## Conseils

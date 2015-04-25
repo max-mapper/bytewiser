@@ -2,13 +2,13 @@
 
 Vous allez recevoir dans `process.argv[2]` le chemin d’un fichier.
 
-Lisez ce fichier et découpez-le autour des sauts de ligne (`'\n'`).  Loguez un buffer par ligne.
+Lisez ce fichier et découpez-le au niveau des sauts de ligne (`'\n'`).  Affichez un tampon par ligne dans la console.
 
 Points bonus si vous n’utilisez pas `.toString()` !
 
 ## Conseils
 
-Les buffers ont une méthode `.slice(…)` qui peut être utilisée pour récupérer une sous-partie du buffer en tant que vue (pas de copie en mémoire).
+Les `Buffer`s ont une méthode `.slice(…)` qui peut être utilisée pour récupérer une sous-partie du tampon en tant que vue (pas de copie en mémoire).
 
 Points bonus en plus si vous n’utilisez PAS `fs.readFileSync(…)`.
 

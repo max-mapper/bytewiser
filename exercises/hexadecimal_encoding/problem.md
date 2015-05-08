@@ -1,4 +1,6 @@
-Given an unknown number of bytes passed via process.argv, create a buffer from them and output a hexadecimal encoded representation of the buffer.
+## Challenge
+
+Given an unknown number of bytes passed via `process.argv`, create a buffer from them and output a hexadecimal encoded representation of the buffer.
 
 For example, `process.argv` might look like:
 
@@ -18,7 +20,6 @@ Your answer should be a string of two-character pairs (also known as hexadecimal
 000f1803fa53
 ```
 
-----------------------------------------------------------------------
 ## Hints
 
 When creating a new `Buffer` object, you can pass as the first argument an array of bytes, also referred to as octets, and you will receive a new Buffer object that has available to it all of the methods listed in the official documentation.
@@ -35,6 +36,5 @@ console.log(buffer.toString('base64'));
 Notice you can also create a buffer object using arrays of numbers already in hexadecimal format, denoted by their `0x` prefix.
 
 Documention for the `buffer` class, including a list of all possible encoding methods, can be found here:
-  {rootdir:/node_apidoc/buffer.html}
 
-----------------------------------------------------------------------
+  {rootdir:/node_apidoc/buffer.html}

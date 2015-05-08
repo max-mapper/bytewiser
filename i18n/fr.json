@@ -1,0 +1,19 @@
+{
+  "title": "Bytewiser",
+  "subtitle": "Apprenez à manipuler des données binaires dans Node et les navigateurs modernes",
+  "menu": {
+    "credits": "CRÉDITS"
+  },
+  "exercise": {
+    "Buffer From String": "Buffer depuis une String",
+    "Hexadecimal Encoding": "Encodage hexadécimal",
+    "Modifying Buffers": "Modification de buffers",
+    "Line Splitter": "Découpage par lignes",
+    "Buffer Concat": "Concaténation de buffers",
+    "Typed Arrays": "Tableaux typés",
+    "Array Buffers": "Buffers de tableaux"
+  },
+  "common": {
+    "fail.never_read_stdin": "Votre programme n’a jamais lu depuis process.stdin"
+  }
+}

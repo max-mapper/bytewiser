@@ -1,0 +1,10 @@
+{
+  "title": "Bytewiser",
+  "subtitle": "Learn how to work with binary data in Node + HTML5 browsers",
+  "menu": {
+    "credits": "CREDITS"
+  },
+  "common": {
+    "fail.never_read_stdin": "Submission never read from process.stdin"
+  }
+}

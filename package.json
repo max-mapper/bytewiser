@@ -2,7 +2,7 @@
   "name": "bytewiser",
   "version": "2.0.1",
   "description": "a nodeschool workshop that teaches you the fundamentals of working with binary data in node.js and HTML5 browsers",
-  "author" : "Max Ogden (http://github.com/maxogden)",
+  "author": "Max Ogden (http://github.com/maxogden)",
   "contributors": [
     "Max Ogden (https://github.com/maxogden)",
     "Joshua K. Farrar <joshua@sent1nel.me> (https://github.com/sent1nel)"
@@ -18,16 +18,13 @@
   "bin": "./bytewiser.js",
   "preferGlobal": true,
   "dependencies": {
-    "workshopper": "^1.0.0-alpha05",
-    "workshopper-exercise": "^0.2.2",
-    "workshopper-wrappedexec": "^0.1.1",
-    "workshopper-boilerplate": "0.0.1",
-    "through": "~2.3.4",
-    "through2": "^0.4.1",
-    "boganipsum": "^0.1.0"
+    "boganipsum": "^0.1.0",
+    "colors-tmpl": "^1.0.0",
+    "combined-stream": "0.0.7",
+    "through2": "^0.6.5",
+    "workshopper": "^2.5.0",
+    "workshopper-exercise": "^2.3.0"
   },
-  "bin": "./bytewiser.js",
-  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/maxogden/bytewiser/issues"
   },

@@ -1,1 +1,1 @@
-console.log(new Buffer('bytewiser'))
+console.log(Buffer.from('bytewiser'))

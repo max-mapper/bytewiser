@@ -1,2 +1,2 @@
 var bytes = process.argv.slice(2).map(Number)
-console.log(new Buffer(bytes).toString('hex'))
+console.log(Buffer.from(bytes).toString('hex'))

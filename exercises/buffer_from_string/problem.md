@@ -11,7 +11,7 @@ the string `"bytewiser"` using `console.log`.
 
 Read more about Buffers here:
 
-  http://nodejs.org/api/all.html#all_buffer
+  `http://nodejs.org/api/all.html#all_buffer`
 
 Or off-line on your local filesystem:
 

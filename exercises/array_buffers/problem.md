@@ -3,7 +3,7 @@ the raw bytes as well as the encoding/view, Array Buffers are only raw bytes and
 have to create a Typed Array on top of an Array Buffer in order to access the data.
 
 When you create a new Typed Array and don't give it an Array Buffer to be a view
-on top of it will create it's own new Array Buffer instead.
+on top of it will create its own new Array Buffer instead.
 
 ## Challenge
 
